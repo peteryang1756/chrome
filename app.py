@@ -8,7 +8,7 @@ def run_selenium():
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     driver = webdriver.Remote(
-        command_executor='https://standalone-chrome-no5g.onrender.com/',
+        command_executor='https://standalone-chrome-no5g.onrender.com/wd/hub',
         options=options
     )
 
