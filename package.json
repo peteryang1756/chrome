@@ -1,0 +1,11 @@
+{
+  "name": "my-selenium-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0" // 確保這個版本符合你的需求
+  }
+}
